@@ -1,0 +1,209 @@
+[28-May-2019 12:36:44 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ecrean/public_html/_transfer/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[15-Sep-2021 13:52:40 UTC] PHP Warning:  POST Content-Length of 8771265 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[26-Aug-2023 19:42:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php on line 434
+[26-Aug-2023 19:49:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php on line 434
+[26-Aug-2023 19:49:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 23
+[26-Aug-2023 19:51:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php on line 434
+[26-Aug-2023 19:52:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 1769
+[26-Aug-2023 19:52:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php on line 297
+[26-Aug-2023 19:52:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php on line 434
+[26-Aug-2023 19:53:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php on line 865
+[26-Aug-2023 19:54:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php on line 434
+[26-Aug-2023 19:54:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 147
+[03-Jun-2024 08:53:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/helpers.php on line 471
+[13-Aug-2024 09:18:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php on line 359
+[16-Nov-2024 14:24:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/storage/framework/views/a95fd9af51ab2402d74829e0d02c8a04fe30396a.php on line 1
+[01-Mar-2025 09:21:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php on line 35
+[01-Mar-2025 09:28:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/helpers.php on line 507
+[26-Apr-2025 15:49:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php on line 50
+[28-Apr-2025 13:54:49 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1971
+Stack trace:
+#0 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(576): include('/home/cli2020/p...')
+#2 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/helpers.php(471): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/cli2020/public_html/app2/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 {main} in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[28-Apr-2025 13:54:51 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1971
+Stack trace:
+#0 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(576): include('/home/cli2020/p...')
+#2 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/helpers.php(471): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/cli2020/public_html/app2/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 {main} in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[28-Apr-2025 13:54:53 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1971
+Stack trace:
+#0 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(576): include('/home/cli2020/p...')
+#2 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/helpers.php(471): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/cli2020/public_html/app2/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 {main} in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[28-Apr-2025 13:54:54 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1971
+Stack trace:
+#0 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(576): include('/home/cli2020/p...')
+#2 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/helpers.php(471): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/cli2020/public_html/app2/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 {main} in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[28-Apr-2025 13:55:19 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1971
+Stack trace:
+#0 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(576): include('/home/cli2020/p...')
+#2 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/helpers.php(471): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/cli2020/public_html/app2/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 {main} in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[28-Apr-2025 13:55:21 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1971
+Stack trace:
+#0 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(576): include('/home/cli2020/p...')
+#2 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/helpers.php(471): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/cli2020/public_html/app2/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 {main} in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[28-Apr-2025 13:55:21 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1971
+Stack trace:
+#0 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(576): include('/home/cli2020/p...')
+#2 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/helpers.php(471): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/cli2020/public_html/app2/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 {main} in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[28-Apr-2025 13:55:21 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1971
+Stack trace:
+#0 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(576): include('/home/cli2020/p...')
+#2 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/helpers.php(471): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/cli2020/public_html/app2/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 {main} in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[28-Apr-2025 13:55:22 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1971
+Stack trace:
+#0 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(576): include('/home/cli2020/p...')
+#2 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/helpers.php(471): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/cli2020/public_html/app2/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 {main} in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[28-Apr-2025 13:55:22 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1971
+Stack trace:
+#0 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(576): include('/home/cli2020/p...')
+#2 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/helpers.php(471): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/cli2020/public_html/app2/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 {main} in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[28-Apr-2025 13:55:46 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1971
+Stack trace:
+#0 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(576): include('/home/cli2020/p...')
+#2 /home/cli2020/public_html/app2/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/helpers.php(471): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/cli2020/public_html/app2/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 {main} in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[28-Apr-2025 15:38:22 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:23 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:24 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:24 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:24 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:25 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:25 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:25 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:26 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:26 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:27 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:27 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:27 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:28 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:28 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:28 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:29 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:31 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:32 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:32 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:32 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:38:46 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.2.0". You are running 7.1.33. in /home/cli2020/public_html/app2/vendor/composer/platform_check.php on line 24
+[28-Apr-2025 15:38:46 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.2.0". You are running 7.1.33. in /home/cli2020/public_html/app2/vendor/composer/platform_check.php on line 24
+[28-Apr-2025 15:38:53 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.2.0". You are running 7.1.33. in /home/cli2020/public_html/app2/vendor/composer/platform_check.php on line 24
+[28-Apr-2025 15:38:56 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.2.0". You are running 7.1.33. in /home/cli2020/public_html/app2/vendor/composer/platform_check.php on line 24
+[28-Apr-2025 15:38:59 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:39:01 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:39:01 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:39:02 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:39:02 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:39:02 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:39:02 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:39:02 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:39:04 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:39:06 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 15:39:10 UTC] PHP Fatal error:  Class 'PDO' not found in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1250
+[28-Apr-2025 16:19:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/cli2020/public_html/app2/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 760

@@ -1,0 +1,41 @@
+.app-container {
+    background: #333 !important;
+}
+#bread-actions .btn {
+	padding: 3px 6px !important;
+    border-radius: 50%;
+}
+.side-body .container-fluid .btn {
+	border-radius: 20px;
+}
+.btn-success {background:#8cd6b6 !important;}
+.btn-primary {background: #e98223 !important;}
+.btn-warning {background:#f39c12 !important;}
+.btn-danger {background:#c0392b !important;}
+
+.voyager .navbar, .voyager .navbar.navbar-default {
+    background: #353d47 !important;
+}
+.hamburger-inner {
+	color: #b9b8b8;
+}
+
+.voyager .panel.panel-primary .panel-heading {
+    background-color: #e74c3c!important 
+}
+
+#search-input button {
+    color: #fff !important;
+    background-color: #8e44ad !important;
+}
+
+.page-title {
+   color: #fff !important
+}
+.voyager .side-menu .navbar-header {
+    background: #ffffff !important;
+    border-color: #ffffff !important;
+}
+.voyager .breadcrumb a {
+    color: #e74c3c !important;
+}
