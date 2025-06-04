@@ -828,10 +828,10 @@ class ReservationController extends BaseVoyagerBaseController
                 }
             }
             
-            // TEMPORARY SOLUTION: Use hello_world template which is known to work
+            // TEMPORARY SOLUTION:
             // Once your custom template is approved, change this back to use conf_template
-            $template_name = 'hello_world';  // Using hello_world until conf_template is approved
-            $language_code = 'en_US';        // Using en_US for hello_world
+            $template_name = 'conf_template';  // Using hello_world until conf_template is approved
+            $language_code = 'en';        // Using en_US for hello_world
             
             // Build the request with template parameters
             $requestBody = [
